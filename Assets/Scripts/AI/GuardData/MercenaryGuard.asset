@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c44244249947b545ad86ea8aace1b1d, type: 3}
+  m_Name: MercenaryGuard
+  m_EditorClassIdentifier: 
+  guardType: MercenaryGuard
+  prefab: {fileID: 3449136535769886843, guid: c6e7e599aaec63d4e95084dd6c57c64d, type: 3}
+  weaponPrefab: {fileID: 4352173965910292777, guid: 3734a0a6471abbd49bec681e512a211d,
+    type: 3}
+  maxHealth: 100
+  outerVisionConeAngle: 50
+  outerVisionConeRange: 20
+  outerVisionConeColour: {r: 0, g: 1, b: 0.08719444, a: 0.25}
+  outerVisionDetectionTime: 2
+  innerVisionConeAngle: 40
+  innerVisionConeRange: 17
+  innerVisionConeColour: {r: 255, g: 0, b: 0, a: 0.25}
+  innerVisionDetectionTime: 0.5
+  detectionRange: 5
+  rangeColour: {r: 1, g: 1, b: 1, a: 0.25}
+  communicationRange: 13
+  showDebugUI: 1
